@@ -1,21 +1,13 @@
 import './App.css'
+import { Gallery, Profile } from './components/Gallery';
 
-const Profile = () => {
+const App = () => {
   return (
-    <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
+    <div style={{ display: 'flex', flexDirection: 'column'}}>
+      <Gallery />
+      <Profile />
+    </div>
   );
 }
 
-export default function Gallery() {
-  return (
-    <section>
-      <h1>Amazing scientists</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
-  );
-}
+export default App;
