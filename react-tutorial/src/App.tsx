@@ -1,5 +1,5 @@
 import './App.css'
-import { Gallery, Profile } from './components/Gallery';
+import { Gallery, Profile } from './components/describingUI/Gallery';
 
 const App = () => {
   return (
